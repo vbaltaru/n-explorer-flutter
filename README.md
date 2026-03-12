@@ -49,4 +49,16 @@ The **My List** tab uses a `FutureBuilder` to fetch data asynchronously from loc
 git clone [https://github.com/vbaltaru/n-explorer-flutter.git](https://github.com/vbaltaru/n-explorer-flutter.git)
 cd n-explorer-flutter
 ```
-### 3,Install Dependencies
+### 3.Install Dependencies
+```bash
+flutter pub get
+```
+### 4. Configuration
+* **Open lib/services/api_service.dart and replace the placeholder with your key:
+```bash
+static const String apiKey = 'YOUR_API_KEY_HERE';
+```
+### 5. Launch
+```bash
+flutter run
+```
