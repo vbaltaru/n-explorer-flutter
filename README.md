@@ -54,7 +54,7 @@ cd n-explorer-flutter
 flutter pub get
 ```
 ### 4. Configuration
-* **Open lib/services/api_service.dart and replace the placeholder with your key:
+* Open lib/services/api_service.dart and replace the placeholder with your key:
 ```bash
 static const String apiKey = 'YOUR_API_KEY_HERE';
 ```
@@ -62,3 +62,21 @@ static const String apiKey = 'YOUR_API_KEY_HERE';
 ```bash
 flutter run
 ```
+
+## 📂 Project Structure
+```text
+lib/
+├── models/      # Data models for JSON serialization
+├── screens/     # UI Screens (Home, Login, Search, My List, Profile)
+├── services/    # TMDb API Client & Local Storage logic
+├── widgets/     # Reusable components (ShowCards, Headers)
+└── main.dart    # App entry point & Theme configuration
+```
+
+##👨‍💻 Author
+Vasile Baltaru - https://github.com/vbaltaru
+
+---
+
+##📜 Disclaimer
+This project is for educational purposes only. All movie data and images are provided by TMDb (The Movie Database). This product uses the TMDb API but is not endorsed or certified by TMDb.
