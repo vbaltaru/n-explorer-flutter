@@ -73,10 +73,10 @@ lib/
 └── main.dart    # App entry point & Theme configuration
 ```
 
-##👨‍💻 Author
+## 👨‍💻 Author
 Vasile Baltaru - https://github.com/vbaltaru
 
 ---
 
-##📜 Disclaimer
+## 📜 Disclaimer
 This project is for educational purposes only. All movie data and images are provided by TMDb (The Movie Database). This product uses the TMDb API but is not endorsed or certified by TMDb.
